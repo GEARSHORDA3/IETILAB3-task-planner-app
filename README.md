@@ -39,32 +39,53 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+![](images/react-material-heroku.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h1 align="center">1.3 Task Planner Project - Front End</h1>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![npm](https://img.shields.io/badge/npm-v6.13.4-red.svg)](https://www.npmjs.com/)
+[![npx](https://img.shields.io/badge/dependencies-npx-orange)](https://www.npmjs.com/package/npx)
+[![material](https://img.shields.io/badge/dependencies-material--ui-yellow)](https://material-ui.com/)
+[![react-router](https://img.shields.io/badge/dependencies-react--router-blue)](https://reacttraining.com/react-router/)
+[![heroku](https://img.shields.io/badge/%E2%86%91_Deploy_to-Heroku-7056bf.svg)](https://www.heroku.com/)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Create a new React JS project.
 
-### Analyzing the Bundle Size
+    ```javascript
+    npx create-react-app task-planner-app
+    ```
+2. Create the Login.js component and the CSS if needed (use Material-UI library!)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![](images/login.png)
 
-### Making a Progressive Web App
+3. Create a navigation drawer component with mocked user data (https://material-ui.com/demos/drawers/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![](images/navigation-drawer.png)
 
-### Advanced Configuration
+4. Create the main view that display the tasks using card layouts (https://material-ui.com/demos/cards/). 
+    This will be your model to represent a task:
+  ```javascript
+       {
+    	"description": "some description text ",
+    	"responsible": {
+    		"name": "Santiago Carrillo",
+    		"email": "sancarbar@gmail"
+    	},
+    	"status": "ready",
+    	"dueDate": 156464645646
+    }
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+![](images/main.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+5. Learn about service workers and offline support: https://codelabs.developers.google.com/codelabs/offline/#0
 
-### `npm run build` fails to minify
+6. Use what you just learned to make your App work offline.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+7. Deploy your App to Heroku (https://dev.to/smithmanny/deploy-your-react-app-to-heroku-2b6f)
+
+8. Deploy your App as an Azure Webapp (https://devblogs.microsoft.com/premier-developer/deploying-react-apps-to-azure-with-azure-devops/)
+
+9. Submit your github repo along with the heroku and azure url of your solution!
