@@ -16,6 +16,7 @@ import clsx from 'clsx';
 import Button from "@material-ui/core/Button";
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import {Login} from "./Login";
+import {Card, CardContent} from "@material-ui/core";
 
 const drawerWidth = 240;
 
@@ -79,7 +80,7 @@ export default function ClippedDrawer() {
     const list = (anchor) => (
         <div
             className={clsx(classes.list, {
-                [classes.fullList]: anchor === 'top' || anchor === 'bottom',
+                [classes.fullList]: anchor === 'MyProfile',
             })}
             role="presentation"
             onClick={toggleDrawer(anchor, false)}
@@ -129,10 +130,42 @@ export default function ClippedDrawer() {
             <main className={classes.content}>
                 <Toolbar />
                 <Typography paragraph>
-                    INFO
+                    <Card className={classes.root} variant="outlined">
+                        <CardContent>
+                            <Typography variant="h5" component="h2">
+                                Description: Bad person
+                            </Typography>
+                            <Typography variant="body2" component="p">
+                                Name: Ochoa Quintero
+                                <br />
+                                email: Ochoa76897@hotmail.com
+                                <br />
+                                status: ready
+                                <br />
+                                dueDate: 156464645646
+                                {'"a benevolent smile"'}
+                            </Typography>
+                        </CardContent>
+                    </Card>
                 </Typography>
                 <Typography paragraph>
-                    INFO
+                    <Card className={classes.root} variant="outlined">
+                        <CardContent>
+                            <Typography variant="h5" component="h2">
+                                Description: Great person
+                            </Typography>
+                            <Typography variant="body2" component="p">
+                                Name: David Andres Vargas Leon
+                                <br />
+                                email: davidgggg@hotmail.com
+                                <br />
+                                status: ready
+                                <br />
+                                dueDate: 156464645646
+                                {'"a benevolent smile"'}
+                            </Typography>
+                        </CardContent>
+                    </Card>
                 </Typography>
             </main>
         </div>
