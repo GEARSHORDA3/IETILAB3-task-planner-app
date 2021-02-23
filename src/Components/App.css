@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.media {
+     height: 0;
+     paddingTop: '56.25%';
+}
+
+.photo {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +47,26 @@
     transform: rotate(360deg);
   }
 }
+
+h3 {
+	color: white;
+    text-align: center;
+	background: #1abc9c;
+   }
+   
+label{
+	color: black;
+   }
+   
+table, th, td{
+	background-color:gold;
+	border: 1px solid black;
+    border-collapse: collapse;
+	border-color:green;
+	border-width: 2px;
+	border-top-color:green;
+   }
+
+
+   
+

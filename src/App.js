@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import './Components/App.css';
+import {Login} from './Components/Login.js';
+import {TodoApp} from './Components/TodoApp.js';
+import {BrowserRouter, BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const LoginView = () => (
+	<Login/>
+);
+
+const TodoAppView = () => (
+	<TodoApp/>
+);
+
+export class App extends Component {
+
+
+	constructor(props) {
+		super(props)
+	}
+
+	render() {
+		console.log(localStorage.getItem('isLoggedLn') + " despues de render")
+		return (
+			<Router>
+				{localStorage.getItem('isLoggedLn')==="false" && LoginView()}
+				{localStorage.getItem('isLoggedLn')==="true" && TodoAppView()}
+			</Router>
+		);
+	}
+
 }
 
-export default App;

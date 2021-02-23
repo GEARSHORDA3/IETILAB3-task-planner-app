@@ -42,14 +42,14 @@ export class Login extends React.Component {
     handleLogging() {
         if (this.state.pass == localStorage.getItem(this.state.user)) {
             alert("Successful login")
-            localStorage.setItem('isLoggedLn', true)
+            localStorage.setItem('isLoggedLn', "true")
         } else {
-            alert("Sign up failed or not registration")
-            localStorage.setItem('isLoggedLn', false)
+            alert("Sign up failed or not registration, now you was registered with the email and password written")
             localStorage.setItem(this.state.user, this.state.pass)
+            localStorage.setItem('isLoggedLn', "false")
         }
         console.log(localStorage.getItem('isLoggedLn') + "  que cambio")
-        return localStorage.getItem("isLoggedLn")
+        /*return localStorage.getItem("isLoggedLn")*/
     }
 
     render() {
@@ -64,10 +64,10 @@ export class Login extends React.Component {
                                 <Avatar className="avatar">
                                     <LockIcon/>
                                 </Avatar>
-                                <CardMedia class="center">
-                                    <img src={imageUrl} className="photo" class="center"/>
+                                <CardMedia className="center">
+                                    <img src={imageUrl} className="photo" className="center"/>
                                 </CardMedia>
-                                <Typography variant="h2">Sign in</Typography>
+                                <Typography variant="h2">Sign in/Register</Typography>
                                 <form className="form" onSubmit={this.handleLogging}>
                                     <FormControl margin="normal" required fullWidth onChange={this.handleUser}>
                                         <InputLabel htmlFor="email">Email Address</InputLabel>
@@ -89,7 +89,7 @@ export class Login extends React.Component {
                                         color="primary"
                                         className="submit"
                                     >
-                                        Sign in
+                                        Sign in/Register
                                     </Button>
                                 </form>
                             </Paper>
