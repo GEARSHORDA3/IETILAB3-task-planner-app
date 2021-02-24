@@ -38,13 +38,7 @@ Este proyecto está bajo la Licencia GNU - mira el archivo [LICENSE](LICENSE) pa
 
 # _Despliegue en Azure_
 
-[![Deploy to Azure](https://miro.medium.com/max/1838/1*UiGvB-O79Qm6je3FXMY4Hw.pnghttps://miro.medium.com/max/1838/1*UiGvB-O79Qm6je3FXMY4Hw.png)](https://reactblog2.azurewebsites.net)
-
-![Deploy to Azure](https://reactblog2.azurewebsites.net)
-
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://reactblog2.azurewebsites.net)
-
-[App Service](https://reactblog2.azurewebsites.net)
 
 # _Despliegue en Firebase_
 
