@@ -7,14 +7,14 @@ Autor: David Andres Vargas Leon
 1. Clonar repositorio:
 
 ```
-git https://github.com/GEARSHORDA3/IETILAB2-React-Material
+git https://github.com/GEARSHORDA3/IETILAB3-task-planner-app
 
 ```
 
 2. Acceder al aplicativo:
 
 ```
-cd IETILAB2-React-Material
+cd IETILAB3-task-planner-app
 ```
 
 3. Ejecutar los siguientes comandos para utilizar la aplicación:
