@@ -25,7 +25,7 @@ export class App extends Component {
 		return (
 			<Router>
 				{(localStorage.getItem('isLoggedLn')==="false" || localStorage.getItem('isLoggedLn')===null) && LoginView()}
-				
+
 				{localStorage.getItem('isLoggedLn')==="true" && TodoAppView()}
 			</Router>
 		);
