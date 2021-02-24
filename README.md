@@ -39,6 +39,10 @@ Este proyecto está bajo la Licencia GNU - mira el archivo [LICENSE](LICENSE) pa
 # _Despliegue en Azure_
 [App Service](https://reactblog2.azurewebsites.net)
 
+# _Despliegue en Firebase
+
+https://lab3-2da16.web.app
+
 <h1 align="center">1.3 Task Planner Project - Front End</h1>
 
 [![npm](https://img.shields.io/badge/npm-v6.13.4-red.svg)](https://www.npmjs.com/)
