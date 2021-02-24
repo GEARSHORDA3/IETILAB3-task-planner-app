@@ -41,7 +41,7 @@ Este proyecto está bajo la Licencia GNU - mira el archivo [LICENSE](LICENSE) pa
 
 # _Despliegue en Firebase_
 
-[![Deploy to Firebase](https://firebase.google.com/downloads/brand-guidelines/PNG/logo-built_white.png?hl=es)](https://lab3-2da16.web.app)
+[![Deploy to Firebase](https://firebase.google.com/downloads/brand-guidelines/PNG/logo-built_white.png?hl=es)](https://lab3ieti.web.app/)
 
 <h1 align="center">1.3 Task Planner Project - Front End</h1>
 
