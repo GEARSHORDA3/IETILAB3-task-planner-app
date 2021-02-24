@@ -1,5 +1,37 @@
-<h1 align="center">1.3 Task Planner Project - Front End</h1>
+# Lab3 Ieti
 
+Autor: David Andres Vargas Leon
+
+# Instrucciones 
+
+1. Clonar repositorio:
+
+```
+git https://github.com/GEARSHORDA3/IETILAB2-React-Material
+
+```
+
+2. Acceder al aplicativo:
+
+```
+cd IETILAB2-React-Material
+```
+
+3. Ejecutar los siguientes comandos para utilizar la aplicación:
+
+```
+npm install
+npm start
+```
+
+4. Si le aparece el error 'react-scripts' no se reconoce como un comando interno o externo ejecutar: 
+
+```
+npm install react-scripts --save
+```
+## Licencia
+
+Este proyecto está bajo la Licencia GNU - mira el archivo [LICENSE](LICENSE) para más detalles.
 
 # _Despliegue en Heroku_ 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://ietilab3.herokuapp.com/)
@@ -7,6 +39,7 @@
 # _Despliegue en Azure_
 [App Service](https://reactblog2.azurewebsites.net)
 
+<h1 align="center">1.3 Task Planner Project - Front End</h1>
 
 [![npm](https://img.shields.io/badge/npm-v6.13.4-red.svg)](https://www.npmjs.com/)
 [![npx](https://img.shields.io/badge/dependencies-npx-orange)](https://www.npmjs.com/package/npx)
