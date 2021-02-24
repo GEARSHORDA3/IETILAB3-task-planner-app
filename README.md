@@ -4,7 +4,7 @@
 # _Despliegue en Heroku_ 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://ietilab3.herokuapp.com/)
 
-# _Despliegue en Azure
+# _Despliegue en Azure_
 [App Service](https://reactblog2.azurewebsites.net)
 
 
